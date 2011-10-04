@@ -1,7 +1,10 @@
 #!/bin/bash
 help__() { 
         echo 
-        echo "USAGE: ${0} directory 'filename'"
+        echo "Web BackDoor Finder Light."
+	echo "This script will help you find backdoor inside your WebApplication at Filesystem level."
+	echo
+	echo "USAGE: ${0} directory 'filename'"
 	echo "Example: ${0} ./ '*.php'" 
 }
 
